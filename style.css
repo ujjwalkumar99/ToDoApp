@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#search-bar {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#search {
+  width: 80%;
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+button {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.due-date {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Updated style for completion and deletion buttons */
+.complete, .delete {
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-left: 5px;
+  color: white;
+}
+
+.delete {
+  background-color: #e74c3c;
+}
+
+.complete:hover, .delete:hover {
+  background-color: #555;
+}
